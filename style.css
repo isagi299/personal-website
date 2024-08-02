@@ -1,0 +1,307 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script:wght@400..700&family=Inter:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Inter:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+.bebas-neue-regular, footer p:nth-child(1), main .enquiry h3, main .project h2, main .about .about-text h2, header .banner .banner-text h1 {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.roboto-regular, body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+span {
+  color: rgb(255, 131, 103);
+}
+
+.btn {
+  background: linear-gradient(0deg, rgb(255, 128, 99) -28.333%, rgb(244, 96, 96) 95.833%);
+  border-radius: 6px;
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 500;
+  text-align: left;
+  border: none;
+  padding: 18px 55px;
+}
+
+.p-style, header .banner .banner-text p {
+  color: rgb(62, 62, 62);
+  font-size: 16px;
+  font-weight: 400;
+  text-align: left;
+}
+
+header {
+  width: 90%;
+  margin: 0 auto;
+}
+header nav {
+  padding-top: 37px;
+  display: flex;
+  justify-content: flex-end;
+  gap: 40px;
+}
+header nav li {
+  list-style: none;
+}
+header nav a {
+  text-decoration: none;
+  color: rgb(60, 60, 60);
+  font-size: 16px;
+  font-weight: 500;
+  text-align: left;
+}
+header nav a:hover {
+  text-decoration: underline;
+}
+header .banner {
+  margin-top: 150px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 30px;
+}
+header .banner .banner-text {
+  width: 30%;
+}
+header .banner .banner-text h1 {
+  width: 85%;
+  font-size: 80px;
+  font-weight: 500;
+  text-align: left;
+}
+header .banner .banner-text p {
+  width: 75%;
+  margin-top: 18px;
+  margin-bottom: 36px;
+}
+header .banner .banner-img {
+  width: 35%;
+  position: relative;
+}
+header .banner .banner-img img {
+  width: 100%;
+}
+header .banner .banner-img img:nth-child(2) {
+  position: absolute;
+  left: -3px;
+  bottom: 1%;
+}
+
+main {
+  width: 100%;
+}
+main .about {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 100px;
+}
+main .about .about-img {
+  width: 40%;
+}
+main .about .about-img img {
+  width: 100%;
+}
+main .about .about-text {
+  width: 40%;
+}
+main .about .about-text h2 {
+  color: rgb(54, 57, 88);
+  font-size: 48px;
+  font-weight: 700;
+  text-align: left;
+}
+main .about .about-text p {
+  width: 75%;
+  color: rgb(62, 62, 62);
+  font-size: 16px;
+  font-weight: 400;
+  text-align: left;
+  margin: 25px 0px;
+}
+main .about .about-text button span {
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 500;
+  padding-left: 10px;
+}
+main .project {
+  margin: 0 auto;
+  background: rgb(229, 229, 229);
+  padding: 70px 0px;
+  margin-bottom: 90px;
+}
+main .project h2 {
+  font-size: 48px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 81px;
+}
+main .project .project-card-container {
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 auto;
+}
+main .project .project-card-container .project-card {
+  width: 25%;
+  border-radius: 19.74px;
+  box-shadow: 0px 6.58px 19.74px 0px rgba(0, 0, 0, 0.07);
+  background: rgb(255, 255, 255);
+  text-align: center;
+  padding: 20px 0px;
+}
+main .project .project-card-container .project-card .card-img {
+  width: 100%;
+}
+main .project .project-card-container .project-card .card-img img {
+  width: 90%;
+}
+main .project .project-card-container .project-card h4 {
+  color: rgb(54, 57, 88);
+  font-size: 24px;
+  font-weight: 700;
+  text-align: left;
+  margin-top: 25px;
+  margin-bottom: 12px;
+  margin-left: 20px;
+}
+main .project .project-card-container .project-card p {
+  color: rgb(108, 108, 108);
+  font-size: 16px;
+  font-weight: 400;
+  text-align: left;
+  margin-left: 20px;
+  width: 90%;
+  margin: 0 auto;
+}
+main .enquiry {
+  width: 60%;
+  margin: 0 auto;
+  background-image: url("shapes/Group_33094_1.png");
+  background-size: cover;
+  height: 225px;
+  margin-bottom: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+main .enquiry h3 {
+  color: rgb(255, 255, 255);
+  font-size: 64px;
+  font-weight: 700;
+  text-align: left;
+}
+main .enquiry button {
+  padding: 18px 32px;
+}
+
+footer {
+  margin-bottom: 80px;
+}
+footer p:nth-child(1) {
+  color: rgb(105, 104, 113);
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+}
+footer p:nth-child(2) {
+  color: rgb(54, 57, 88);
+  font-size: 36px;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 16px;
+  margin-bottom: 20px;
+}
+footer .icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 27px;
+}
+footer .icon img {
+  width: 40px;
+}
+
+@media screen and (max-width: 574px) {
+  header nav {
+    justify-content: center;
+    width: 90%;
+    margin: 0 auto;
+  }
+  header nav a {
+    font-size: 14px;
+  }
+  header .banner {
+    flex-direction: column-reverse;
+    gap: 50px;
+  }
+  header .banner .banner-text {
+    width: 100% !important;
+    text-align: center;
+  }
+  header .banner .banner-text h1 {
+    font-size: 70px;
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+  }
+  header .banner .banner-text p {
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+  header .banner .banner-img {
+    width: 85%;
+  }
+  main .about {
+    flex-direction: column;
+    gap: 30px;
+  }
+  main .about .about-img {
+    width: 80%;
+  }
+  main .about .about-text {
+    width: 90%;
+  }
+  main .about .about-text h2 {
+    text-align: center;
+  }
+  main .about .about-text p {
+    width: 90%;
+  }
+  main .about .about-text button {
+    width: 100%;
+    text-align: center;
+  }
+  main .project .project-card-container {
+    flex-direction: column;
+    gap: 50px;
+  }
+  main .project .project-card-container .project-card {
+    width: 100%;
+  }
+  main .enquiry {
+    width: 90%;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    flex-direction: column;
+  }
+  main .enquiry h3 {
+    font-size: 50px;
+  }
+}/*# sourceMappingURL=style.css.map */
